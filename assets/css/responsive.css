@@ -1,0 +1,73 @@
+/* PC */
+@media (min-width: 1024px) {
+  
+}
+
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media(max-width: 739px) {
+    /* dung chung */
+    .s-col-ful,
+    .s-full-with{
+        width: 100% !important;
+    }
+    /* end */
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-button{
+        display: none;
+    }
+    
+    #header .menu-btn{
+        display: block;
+    }
+    
+    #nav{
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .sub-nav{
+        position: initial;
+        background-color: #474545;
+    }
+    
+    #nav .sub-nav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    .place-iteam,
+    .team-img{
+        width: 100%;
+    }
+
+    .img-member{
+        width: 230px;
+    }
+
+    #contact{
+        height: 600px;
+    }
+
+    .contact-section .info-section{
+        padding-bottom: 16px;
+    }
+
+    .form-section .form-control{
+        padding: 15px;
+    }
+}
